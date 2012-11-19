@@ -1,7 +1,7 @@
 MelissaBeasonSmith::Application.routes.draw do
   root :to => 'visitor#new'
 
-	resources :visitor
+	resources :visitors
 
 	# The priority is based upon order of creation:
   # first created -> highest priority.

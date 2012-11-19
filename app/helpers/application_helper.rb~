@@ -1,7 +1,7 @@
 module ApplicationHelper
 
   def title
-    base_title = "Melissa Beason-Smith, Ph.D."
+    base_title = "RThomas LLC"
     if @page_title.nil?
       base_title
     else

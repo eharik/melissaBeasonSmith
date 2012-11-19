@@ -1,0 +1,8 @@
+<div id='banner_container' class='color_fade'>
+	<div id='logo_container' class='left'>
+		This where your super cool logo will go
+	</div>
+	<div id='banner_message_container' class='right'>
+		This is where your super cool slogan will go
+	</div>
+</div>

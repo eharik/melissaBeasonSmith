@@ -1,14 +1,27 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 <head>
-  <title>MelissaBeasonSmith</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <title><%= title %></title>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<!--  <%= stylesheet_link_tag 'blueprint/screen',   :media => 'screen' %> -->
+<!--  <%= stylesheet_link_tag 'blueprint/print',    :media => 'print' %> -->
+  <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
+<!--  <%= stylesheet_link_tag  'custom',            :media => 'screen' %> -->
+  <%= javascript_include_tag 'application' %>
+	<%= stylesheet_link_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<div id='site_container'>
+		<%= render 'layouts/header' %>
+		<%= render 'layouts/navbar' %>
+		<div id='content_container' class='color_fade'>
+			<%= yield %>
+		</div>		
+		<%= render 'layouts/footer' %>
+	</div>
 </body>
 </html>
