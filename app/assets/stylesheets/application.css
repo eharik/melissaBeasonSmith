@@ -23,6 +23,7 @@ body {
 	margin-left: -350px;
 	position: relative;
 	left: 50%;
+	color: #36454F /* charcoal */
 }
 
 .container {
@@ -37,19 +38,57 @@ body {
 	height: 50px;
 }
 #footer_container {
-	height: 150px;
+	height: 50px;
 }
 #content_container {
-	height: 400px;
+	height: 500px;
 	margin-bottom: 10px;
 }
 #content_left{
 	width: 249px;
-	height: 400px
+	height: 500px
 }
 #content_right{
 	width: 449px;
-	height: 400px;
+	height: 500px;
+}
+#content_container p {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 11pt;
+}
+.navbar_link {
+	width: 175px;
+	height: 35px;
+	float: left;
+	text-align: center;
+	padding-top: 15px;
+}
+.navbar_link:hover {
+	background: #6D9BC3; /* cerulean frost */
+	color: #FDF5E6; /* old lace */
+}
+#smith_beason_pic_container {
+	height: 220px;
+}
+#specializations_container {
+	height: 280px;
+}
+#specialization_header {
+	text-decoration: underline;
+	text-align: center;
+	height: 25px;
+	padding-top: 15px;
+}
+.specialization {	
+	text-align: center;
+	height: 25px;
+	padding-top: 14px;
+	font-size: 11pt;
+}
+.specialization:hover {
+	background: #6D9BC3; /* cerulean frost */
+	color: #FDF5E6; /* old lace */
 }
 .left {
  float: left;
