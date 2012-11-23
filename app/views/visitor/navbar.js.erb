@@ -1,0 +1,8 @@
+jQuery(function(){
+	$('#content_right').replaceWith("<%= escape_javascript( render @layout_right ) %>")
+
+	$('#content_left').replaceWith("<%= escape_javascript( render @layout_left ) %>")
+
+	$('title').empty()
+	$('title').append( 'Melissa Beason-Smith, Ph.D. | ' + '<%= @page_title %>')
+})

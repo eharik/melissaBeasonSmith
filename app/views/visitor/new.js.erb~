@@ -1,0 +1,26 @@
+jQuery(function(){
+	$('#content_container').empty()
+	$('#content_container').append("<%= escape_javascript( render 'layouts/content_left' ) %>")
+	$('#content_container').append("<%= escape_javascript( render 'layouts/content_right' ) %>")
+})
+/*
+jQuery(function(){
+	$(".specialization").click(function(){
+		var link = "/" + $(this).attr('id')
+		$.ajax({
+		      url: link
+		  }).done( function()
+				{})
+	})
+})
+
+jQuery(function(){
+	$(".navbar_link").click(function(){
+		var link = "/" + $(this).attr('id')
+		$.ajax({
+		      url: link
+		  }).done( function()
+				{})
+	})
+})
+*/

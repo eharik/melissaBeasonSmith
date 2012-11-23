@@ -1,0 +1,7 @@
+jQuery(function(){
+	$('#content_right').empty()
+	$('#content_right').append('<p> Maybe a picture of your facility here and a map </p<')
+
+	$('#content_left').empty()
+	$('#content_left').append('<p> contact information </p<')
+})

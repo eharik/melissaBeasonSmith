@@ -1,0 +1,7 @@
+jQuery(function(){
+	$('#content_right').empty()
+	$('#content_right').append("<%= escape_javascript( render layouts/ ) %>")
+
+	$('title').empty()
+	$('title').append( 'Melissa Beason-Smith, Ph.D. | ' + '<%= @page_title %>')
+})
