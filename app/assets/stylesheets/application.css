@@ -27,7 +27,8 @@ body {
 }
 
 .container {
-	background: #72A0C1; /* air superiority blue */
+	/*background: #72A0C1; /* air superiority blue */
+	background: #87CEEB; /* sky blue */
 	width: 700px;
 	margin-bottom: 10px;
 }
