@@ -24,18 +24,21 @@ body {
 	left: 50%;
 	color: #36454F /* charcoal */
 }
-#site_container img {
-	margin: 15px;
-}
-#profile_pic{
-	width: 219px;
-	height: 190px;   
+img {
 	-moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   border-color: #36454F /* charcoal */
   border-style: solid;
   border-width: 1px;
+}
+#therapy_comic_strip {
+	margin: 0px 75px;
+}
+#profile_pic{
+	width: 219px;
+	height: 230px; 
+	margin: 15px;  
 }
 .container {
 	/*background: #72A0C1; /* air superiority blue */
@@ -82,22 +85,25 @@ body {
 	background: #6D9BC3; /* cerulean frost */
 	color: #FDF5E6; /* old lace */
 }
-#smith_beason_pic_container {
-	height: 220px;
+.half_left_container {
+	height: 250px;
 }
-#specializations_container {
-	height: 280px;
+.half_right_container {
+	height: 230px;
+	margin: 10px 10px;
 }
 #specialization_header {
-	text-decoration: underline;
 	text-align: center;
-	height: 25px;
-	padding-top: 15px;
+	height: 20px;
+	padding-top: 10px;
+}
+.underline {
+	text-decoration: underline;
 }
 .specialization {	
 	text-align: center;
 	height: 25px;
-	padding-top: 14px;
+	padding-top: 10px;
 	font-size: 11pt;
 }
 .specialization:hover {
@@ -113,4 +119,20 @@ body {
 #content_right li {
 	font-size: 11pt;
 	padding-right: 25px;
+}
+#padding {
+	padding-top: 50px;
+}
+#padding_small {
+	padding-top: 20px;
+}
+.no_pad_top {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+#facility_pic {
+	width: 429px;
+	height: 220px;
 }
