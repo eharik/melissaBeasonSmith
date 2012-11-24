@@ -1,5 +1,6 @@
 <div id='content_left' class='left container'>
 	<div id='smith_beason_pic_container'>
+		<%= image_tag 'profile_small.jpg' %>
 	</div>
 	<div id='specializations_container'>
 		<div id='specialization_header'>

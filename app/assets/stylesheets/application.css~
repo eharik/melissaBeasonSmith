@@ -15,7 +15,6 @@
 body {
 	background: #5D8AA8; /* air force blue */
 }
-
 #site_container {
 	width: 700px;
 	height: 800px;
@@ -25,9 +24,22 @@ body {
 	left: 50%;
 	color: #36454F /* charcoal */
 }
-
+#site_container img {
+	margin: 15px;
+}
+#profile_pic{
+	width: 219px;
+	height: 190px;   
+	-moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border-color: #000;
+  border-style: solid;
+  border-width: 1px;
+}
 .container {
-	background: #72A0C1; /* air superiority blue */
+	/*background: #72A0C1; /* air superiority blue */
+	background: #87CEEB; /* sky blue */
 	width: 700px;
 	margin-bottom: 10px;
 }
@@ -50,11 +62,13 @@ body {
 }
 #content_right{
 	width: 449px;
-	height: 500px;
+	height: 480px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 #content_container p {
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
 	font-size: 11pt;
 }
 .navbar_link {
@@ -95,4 +109,8 @@ body {
 }
 .right {
 	float: right;
+}
+#content_right li {
+	font-size: 11pt;
+	padding-right: 25px;
 }
