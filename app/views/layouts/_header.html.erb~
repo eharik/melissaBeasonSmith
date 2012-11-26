@@ -1,2 +1,7 @@
 <div id='banner_container' class='container'>
+	<%= image_tag 'banner_sm.jpg', :id => 'banner_pic'%>
+	<div id='vision_statement_container'>
+		<p id='vision_statement'>Your vision statement here</p>
+		<p id='signature'>Dr. Melissa Beason-Smith</p>
+	</div>
 </div>
