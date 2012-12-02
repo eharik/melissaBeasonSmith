@@ -13,7 +13,8 @@
  */
 
 body {
-	background: #6082B6; /* glaucous */
+	/*background: #6082B6; /* glaucous */
+	background: #014421;
 }
 #site_container {
 	width: 700px;
@@ -26,7 +27,8 @@ body {
 }
 .container {
 	/*background: #72A0C1; /* air superiority blue */
-	background: #6699CC; /* blue-gery */
+	/*background: #6699CC; /* blue-gery */
+	background: #C19A6B;	
 	width: 700px;
 	margin-bottom: 10px;
 }
@@ -106,13 +108,15 @@ img {
 }
 #content_left a {
 	font-size: 11pt;
-	margin: 15px 10px;
+	margin: 15px 12px;
 }
 #content_right{
 	width: 449px;
 	height: 480px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	overflow-y: auto;
+	overflow-x: hidden;
 }
 #content_container p {
 	padding-left: 25px;
@@ -127,7 +131,8 @@ img {
 	padding-top: 15px;
 }
 .navbar_link:hover {
-	background: #6082B6; /* cobalt blue */
+	/*background: #6082B6; /* cobalt blue */
+	background: #014421;
 	color: #FDF5E6; /* old lace */
 	border-top: 1px solid #FDF5E6;
 	border-bottom: 1px solid #FDF5E6;
@@ -184,6 +189,9 @@ img {
 #facility_pic {
 	width: 429px;
 	height: 220px;
+}
+#facility_picture_container {
+	margin-top: 5px;
 }
 #content_left #contact_info p {
 	font-size: 9pt;

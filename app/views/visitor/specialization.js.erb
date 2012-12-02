@@ -1,6 +1,6 @@
 jQuery(function(){
 	$('#content_right').empty()
-	$('#content_right').append("<%= escape_javascript( render @layout ) %>")
+	$('#content_right').append("<%= escape_javascript( render @layout, :specialization_type => @specialization_type, :specialization_top => @specialization_top, :specialization_bottom => @specialization_bottom ) %>")
 
 	$('title').empty()
 	$('title').append( 'Melissa Beason-Smith, Ph.D. | ' + '<%= @page_title %>')
