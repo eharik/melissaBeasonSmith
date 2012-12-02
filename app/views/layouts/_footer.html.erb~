@@ -1,9 +1,10 @@
 <div id='footer_container' class='container'>
 	<div class='left'>
-		<p>1234 Mental Health Blvd, Kingwood TX 77019</p>
+		<p class='no_pad_top'>1110 Kingwood Drive, Suite 235 | Kingwood TX, 77339</p>
+		<p class='no_pad_top'>2524 Nottingham                | Houston TX, 77005</p>	
 	</div>
 	<div class='right'>
-		<p class='no_pad'>888-888-8888</p>
-		<p class='no_pad'>your.email@email.com</p>
+		<p class='no_pad_top'>713-376-5924</p>
+		<p class='no_pad_top'>MelissaBeasonSmith@gmail.com</p>
 	</div>
 </div>

@@ -30,10 +30,35 @@ jQuery(function(){
 })
 function initialize() {
   var mapOptions = {
-    center: new google.maps.LatLng(30.057856, -95.186241),
-    zoom: 12,
+    center: new google.maps.LatLng(29.9432187, -95.32868165),
+    zoom: 9,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   }
+
   var map = new google.maps.Map(
 		document.getElementById('map_container'), mapOptions)
+
+  var marker_kingwood = new google.maps.Marker({
+      position:  new google.maps.LatLng(30.0492857,-95.2395183),
+      map: map,
+      title:"Kingwood Facility"
+  })
+
+  var marker_houston = new google.maps.Marker({
+      position:  new google.maps.LatLng(29.722505,-95.417845),
+      map: map,
+      title:"Houston Facility"
+  })
+
+  google.maps.event.addListener(marker_kingwood, 'click', function() {
+    map.setZoom(14);
+    map.setCenter(marker_kingwood.getPosition());
+  });
+
+  google.maps.event.addListener(marker_houston, 'click', function() {
+    map.setZoom(14);
+    map.setCenter(marker_houston.getPosition());
+  });
+
+
 }
