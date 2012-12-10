@@ -14,7 +14,7 @@
 
 body {
 	/*background: #6082B6; /* glaucous */
-	background: #014421;
+	background: olive;
 }
 #site_container {
 	width: 700px;
@@ -111,7 +111,7 @@ img {
 	font-size: 11pt;
 	margin: 15px 12px;
 	position: absolute;
-	width: 240px;
+	width: 220px;
 }
 #content_right{
 	width: 449px;
