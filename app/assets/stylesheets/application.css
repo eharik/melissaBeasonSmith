@@ -113,6 +113,11 @@ img {
 	position: absolute;
 	width: 220px;
 }
+#content_left #address a {
+	margin: 10px 20px;
+	font-size: 9pt;
+	text-decoration:  none;
+} 
 #content_right{
 	width: 449px;
 	height: 480px;

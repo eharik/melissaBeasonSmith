@@ -12,9 +12,11 @@
 		<p class='underline'>Kingwood Facility</p>
 		<p class='no_pad_top'>1110 Kingwood Drive, Suite 235</p>
 		<p class='no_pad_top'>Kingwood TX, 77339</p>
-		</br>
+		<%= link_to 'Directions', 'https://maps.google.com/maps?daddr=%2830.0492857,-95.2395183%29' %>
+		</br></br>
 		<p class='underline'>Houston Facility</p>
 		<p class='no_pad_top'>2524 Nottingham</p>
 		<p class='no_pad_top'>Houston TX, 77005</p>
+		<%= link_to 'Directions', 'https://maps.google.com/maps?daddr=2524%20Nottingham%20Houston%20TX%2077005' %>
 	</div>
 </div>
