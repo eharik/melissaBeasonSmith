@@ -59,11 +59,11 @@ class VisitorController < ApplicationController
 		elsif ajaxData == 'anxiety'
 			return 'In treating an anxiety disorder, I will work with you to face the issues you fear, identify and challenge the faulty thoughts that fuel this fear, and help you to re-engage in your life without the paralyzing impact of your anxiety.'
 		elsif ajaxData == 'borderline'
-			return 'I believe that the therapeutic relationship provides a safe space within which a new and healthy experience of attachment to another person can develop and old patterns of responding to fear can be challenged and possibly changed.'
+			return 'I believe that the therapeutic relationship provides a safe space within which a new and healthy experience of attachment to another person can develop and old patterns of responding to fear can be challenged and possibly changed.  We will examine the underlying causes of your distress and how your early relationships impact your ability to form healthy connections today.'
 		elsif ajaxData == 'grief'
 			return 'I will work with you to identify what is getting in the way of your grief resolving naturally, assist you in experiencing and working through the grief, and help you to begin moving toward the healing and peace that exists on the other side of grief.'
 		elsif ajaxData == 'life'
-			return ' In therapy, we will gain an understanding of what the loss is and the emotions attached to it, making room for the enjoyment and appreciation for the transition into this next phase of your life.'
+			return 'Even positive transitions can bring about a sense of loss as you let go of who you were prior to the change and discover who you are now.  In therapy, we will gain an understanding of what the loss is and the emotions attached to it, making room for the enjoyment and appreciation for the transition into this next phase of your life.'
 		elsif ajaxData == 'relationship'
 			return 'I believe you can break out of unhealthy patterns of relating and create fulfilling relationships with some understanding and guidance.  I view the therapeutic relationship as critical to this process as it provides a safe and healthy space for trying out new ways of relating and connecting with another person.'
 		end
@@ -79,7 +79,7 @@ class VisitorController < ApplicationController
 		elsif ajaxData == 'grief'
 			return 'Loss occurs throughout our lives and brings about feelings of sadness and grief.  The loss may be due to death, divorce, loss of employment, or many other experiences, but grief accompanies all loss.  Grief is a natural process we all go through at some point in our lives, but becoming stuck in the grieving process can keep you from living your life following a significant loss.'
 		elsif ajaxData == 'life'
-			return 'Life is full of changes and transitions that can bring about a wide range of emotional responses.  Some transitions, such as a divorce, loss of a job, or a move, are expected to be difficult and can bring about feelings of sadness and fear.  Other transitions, such as becoming a parent, beginning a new job, or starting a new relationship, are often expected to be exciting changes and can take an individual by surprise when feelings of fear, sadness, or anger are present.  Even positive transitions can bring about a sense of loss as you let go of who you were prior to the change and discover who you are now.'
+			return 'Life is full of changes and transitions that can bring about a wide range of emotional responses.  Some transitions, such as a divorce, loss of a job, or a move, are expected to be difficult and can bring about feelings of sadness and fear.  Other transitions, such as becoming a parent, beginning a new job, or starting a new relationship, are often expected to be exciting changes and can take an individual by surprise when feelings of fear, sadness, or anger are present.'
 		elsif ajaxData == 'relationship'
 			return 'I believe we are born relational people and thrive within healthy relationships.  However, we are not all taught how to create healthy relationships and may even have people in our lives who are unhealthy or toxic for us.  People who have not been taught how to interact with others in effective ways tend to repeat maladaptive patterns of behaving in relationships without recognizing what they are doing.'
 		end	

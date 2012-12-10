@@ -9,7 +9,7 @@ class VisitorController < ApplicationController
 
 	def specialization
 		@page_title = "Specializing in " + fillInWord( params[:specialization] )
-		@layout = 'layouts/specialization' #+ params[:specialization]
+		@layout = 'layouts/specialization'
 		@specialization_type = fillInWord( params[:specialization] )
 		@specialization_top = getSpecializationTop( params[:specialization] )
 		@specialization_bottom = getSpecializationBottom( params[:specialization] )
