@@ -180,13 +180,15 @@ img {
 	color: #FDF5E6; /* old lace */
 	border-top: 1px solid #FDF5E6;
 	border-bottom: 1px solid #FDF5E6;
+  height: 23px;
 }
 .specialization.selected {
   border: solid black;
   border-top: solid black;
-  border-width: 1px 10px 1px 10px;
+  border-width: 0px 10px 0px 10px;
   border-image: url("triangle_side.gif") 0% 25% 0% 25% stretch;
   width: 229px;
+  height: 25px;
   padding-top: 10px;
 }
 .left {

@@ -3,12 +3,13 @@ jQuery(function(){
     var spec = $(this).attr('id')
     var data = 'specialization=' + spec
     var link = '/specialization'
-    specTag( spec )
     $.ajax({
       data: data,		      
       url: link
     }).done( function()
     {
+      navTag("")
+      specTag( spec )
     })
   })
 })
@@ -17,12 +18,13 @@ jQuery(function(){
     var page = $(this).attr('id')
     var data = 'link=' + page
     var link = '/navbar'
-    navTag( page ) 
     $.ajax({
       data: data,		      
       url: link
     }).done( function()
     {
+      navTag( page ) 
+      specTag("")
       if (page === 'contact') 
       {
         initialize()					
