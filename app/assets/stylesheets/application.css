@@ -15,6 +15,15 @@
 body {
 	/*background: #6082B6; /* glaucous */
 	background: #3F754F;
+  background:
+    linear-gradient(27deg, #417751 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #417751 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #447A54 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #447A54 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #497E5A 10px, transparent 10px),
+    linear-gradient(#4B805C 25%, #538963 25%, #487D59 50%, transparent 50%, transparent 75%, #538963 75%, #538963);
+  background-color: #3F754F;
+  background-size: 20px 20px;
 }
 #site_container {
 	width: 700px;
@@ -140,7 +149,7 @@ img {
 }
 .navbar_link:hover {
 	/*background: #6082B6; /* cobalt blue */
-	background: #19512A;
+	background: #3F754F;
 	color: #FDF5E6; /* old lace */
 	border-top: 1px solid #FDF5E6;
 	border-bottom: 1px solid #FDF5E6;
@@ -175,8 +184,7 @@ img {
 	font-size: 10.5pt;
 }
 .specialization:hover {
-	/*background: #6082B6;*/
-	background: #19512A;
+	background: #3F754F;
 	color: #FDF5E6; /* old lace */
 	border-top: 1px solid #FDF5E6;
 	border-bottom: 1px solid #FDF5E6;
