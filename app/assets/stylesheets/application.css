@@ -14,7 +14,7 @@
 
 body {
 	/*background: #6082B6; /* glaucous */
-	background: #014421;
+	background: #3F754F;
 }
 #site_container {
 	width: 700px;
@@ -28,7 +28,7 @@ body {
 .container {
 	/*background: #72A0C1; /* air superiority blue */
 	/*background: #6699CC; /* blue-gery */
-	background: #C19A6B;	
+	background: #9E7A55;	
 	width: 700px;
 	margin-bottom: 10px;
 }
@@ -140,10 +140,18 @@ img {
 }
 .navbar_link:hover {
 	/*background: #6082B6; /* cobalt blue */
-	background: #014421;
+	background: #19512A;
 	color: #FDF5E6; /* old lace */
 	border-top: 1px solid #FDF5E6;
 	border-bottom: 1px solid #FDF5E6;
+}
+.navbar_link.selected {
+  border: solid black;
+  border-top: solid black;
+  border-width: 5px 0px 5px 0px;
+  border-image: url("triangle_top.gif") 25% 0% 25% 0% repeat;
+  height: 30px;
+  padding-top: 10px;
 }
 .half_left_container {
 	height: 250px;
@@ -164,15 +172,26 @@ img {
 	text-align: center;
 	height: 25px;
 	padding-top: 10px;
-	font-size: 11pt;
+	font-size: 10.5pt;
 }
 .specialization:hover {
 	/*background: #6082B6;*/
-	background: #014421;
+	background: #19512A;
 	color: #FDF5E6; /* old lace */
 	border-top: 1px solid #FDF5E6;
 	border-bottom: 1px solid #FDF5E6;
 }
+.specialization.selected {
+  border: solid black;
+  border-top: solid black;
+  border-width: 1px 10px 1px 10px;
+  border-image: url("triangle_side.gif") 0% 25% 0% 25% stretch;
+  width: 229px;
+  padding-top: 10px;*/
+}
+/*.specialization.selected {
+  background: black;
+}*/
 .left {
  float: left;
 }
