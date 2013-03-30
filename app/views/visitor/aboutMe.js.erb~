@@ -1,7 +1,0 @@
-jQuery(function(){
-	$('#content_right').empty()
-	$('#content_right').append('<p> BIO </p<')
-
-	$('#content_left').empty()
-	$('#content_left').append('<p> new content </p<')
-})

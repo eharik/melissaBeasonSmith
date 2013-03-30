@@ -1,4 +1,0 @@
-jQuery(function(){
-	$('#content_right').empty()
-	$('#content_right').append('<p> Description of grief and loss and your approach to treatment</p<')
-})
