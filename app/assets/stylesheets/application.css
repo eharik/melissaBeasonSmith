@@ -66,6 +66,7 @@ img {
 }
 #banner_container {
 	height: 150px;
+  box-shadow: 5px 5px 5px;
 }
 #banner_pic {
 	-moz-border-radius: 0px;
@@ -93,10 +94,12 @@ img {
 }
 #navbar_container {
 	height: 50px;
+  box-shadow: 5px 5px 5px;
 }
 #footer_container {
 	height: 50px;
-	font-size:10pt;
+	font-size:10pt;i
+  box-shadow: 5px 5px 5px;
 }
 #footer_container div.right {
 	margin-top: 8px;
@@ -114,7 +117,8 @@ img {
 }
 #content_left{
 	width: 249px;
-	height: 500px
+	height: 500px;
+  box-shadow: 5px 5px 5px;
 }
 #content_left a {
 	font-size: 11pt;
@@ -128,12 +132,13 @@ img {
 	text-decoration:  none;
 } 
 #content_right{
-	width: 449px;
+	width: 445px;
 	height: 480px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	overflow-y: auto;
 	overflow-x: hidden;
+  box-shadow: 5px 5px 5px;
 }
 #content_container p {
 	padding-left: 25px;
