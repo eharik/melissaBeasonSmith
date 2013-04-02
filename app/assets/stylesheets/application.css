@@ -160,11 +160,11 @@ img {
 	border-bottom: 1px solid #FDF5E6;
 }
 .navbar_link.selected {
-  border: solid black;
+  border: solid #cc0099;
   border-top: solid black;
-  border-width: 5px 0px 5px 0px;
-  border-image: url("triangle_top.gif") 25% 0% 25% 0% repeat;
-  height: 30px;
+  border-width: 8px 0px 8px 0px;
+  border-image: url("triangle_top.gif") 0% 0% 65% 0% stretch;
+  height: 24px;
   padding-top: 10px;
 }
 .half_left_container {
@@ -196,10 +196,10 @@ img {
   height: 23px;
 }
 .specialization.selected {
-  border: solid black;
+  border: solid #cc0099;
   border-top: solid black;
   border-width: 0px 10px 0px 10px;
-  border-image: url("triangle_side.gif") 0% 25% 0% 25% stretch;
+  border-image: url("triangle_side.gif") 0% 20% 0% 20% stretch;
   width: 229px;
   height: 25px;
   padding-top: 10px;
